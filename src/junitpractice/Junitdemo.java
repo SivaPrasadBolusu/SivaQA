@@ -16,8 +16,7 @@ class Junitdemo {
 	static void setUpBeforeClass() throws Exception {
 	
 	System.setProperty("webdriver.chrome.driver","C:\\LIB\\ChromeDriver.exe");
-		//System.setProperty("webdriver.chrome.driver","C:\\LIB\\ChromeDriver.exe");
-		driver = new ChromeDriver();
+			driver = new ChromeDriver();
 		driver.manage().window().maximize();
 	} 
 	@AfterAll
