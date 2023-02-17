@@ -16,19 +16,19 @@ public class TestNgPriority {
 	  
   }
   
-  @Test
+  @Test(priority=4)
   public void facebook() throws Exception {
 	  driver.get("https://www.facebook.com");
 	  Thread.sleep(3000);
   }
   
-  @Test
+  @Test(priority=3)
   public void Redmine() throws Exception {
 	  driver.get("https://www.redmine.org");
 	  Thread.sleep(3000);
   }
   
-  @Test (priority = 0)
+  @Test (priority=0)
   public void whatsap() throws Exception {
 	  driver.get("https://www.whatsapp.com");
 	  Thread.sleep(3000);

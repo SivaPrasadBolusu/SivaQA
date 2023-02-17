@@ -3,13 +3,18 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="sikulidemmo.youtubeautomation">
+      <class name="testngtutorial.TestNGAlphabeticalorder">
         <methods>
-          <include name="beforeClass"/>
-          <include name="youtubeAutomation"/>
+          <include name="google"/>
           <include name="afterClass"/>
+          <include name="meesho"/>
+          <include name="redmine"/>
+          <include name="twitter"/>
+          <include name="flipkart"/>
+          <include name="whatsapp"/>
+          <include name="beforeClass"/>
         </methods>
-      </class> <!-- sikulidemmo.youtubeautomation -->
+      </class> <!-- testngtutorial.TestNGAlphabeticalorder -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
