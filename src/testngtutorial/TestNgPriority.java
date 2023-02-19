@@ -28,12 +28,12 @@ public class TestNgPriority {
 	  Thread.sleep(3000);
   }
   
-  @Test (priority=0)
+  /*@Test (priority=0)
   public void whatsap() throws Exception {
 	  driver.get("https://www.whatsapp.com");
 	  Thread.sleep(3000);
 	  
-  }
+  }*/
   
  @Test (priority = 1)
   public void Selenium() throws Exception {
