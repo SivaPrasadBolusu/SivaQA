@@ -17,10 +17,10 @@ public class LocatorClassNamePracticeonFB {
 	  Thread.sleep(3000);
 	  driver.findElement(By.xpath("//*[@id=\"email_container\"]/input")).sendKeys("9398142136");
 	  Thread.sleep(3000);
-	  driver.findElement(By.xpath("//*[@id=\"pass\"]")).sendKeys("Hello@12345");
+	  driver.findElement(By.xpath("//*[@id=\"pass\"]")).sendKeys("Hello@123");
 	  Thread.sleep(3000);
 	  driver.findElement(By.xpath("//*[@id=\"loginbutton\"]")).click();
-	  
+	
   }
   @BeforeClass
   public void beforeClass() {

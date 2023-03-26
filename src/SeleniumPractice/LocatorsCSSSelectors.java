@@ -13,9 +13,9 @@ public class LocatorsCSSSelectors {
   @Test
   public void locatorcssselector() throws Exception {
 	  driver.get("http://www.seleniumlearn.com/user");
-	  Thread.sleep(3000);
-      //driver.findElement(By.cssSelector("input.form-submit")).click();
+	  Thread.sleep(5000);
       driver.findElement(By.cssSelector("input.form-submit")).click();
+      //driver.findElement(By.cssSelector("input.form-submit")).click();
   }
   @BeforeClass
   public void beforeClass() {

@@ -16,6 +16,13 @@ public class TestNgpractice {
 	  driver.get("https://www.google.com");
 	  Thread.sleep(3000);
 	  driver.get("https://www.facebook.com");
+	  Thread.sleep(3000);
+	  /*driver.findElement(By.name("//*[@id=\"email\"]")).sendKeys("sivaprasad432432@gmail.com");
+	  //Thread.sleep(3000);
+	  driver.findElement(By.id("id=pass")).sendKeys("@Password@1589@");
+	  Thread.sleep(3000);
+	  driver.findElement(By.name("name=login")).click();
+	  Thread.sleep(3000);*/
   }
   @BeforeClass
   public void beforeClass() {

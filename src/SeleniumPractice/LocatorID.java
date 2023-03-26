@@ -11,7 +11,7 @@ public class LocatorID {
 	public static void main(String[] args) throws Exception {
 		
 		
-		System.setProperty("webdriver.chrome.driver", "drivers//ChromeDriver.exe");
+		//System.setProperty("webdriver.chrome.driver", "drivers//ChromeDriver.exe");
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		

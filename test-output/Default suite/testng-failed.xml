@@ -3,13 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="SeleniumPractice.LocatorsCSSSelectors">
+      <class name="testngtutorial.findElementmethod">
         <methods>
-          <include name="afterClass"/>
-          <include name="locatorcssselector"/>
-          <include name="beforeClass"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="findElement"/>
+          <include name="findElementsMethod"/>
         </methods>
-      </class> <!-- SeleniumPractice.LocatorsCSSSelectors -->
+      </class> <!-- testngtutorial.findElementmethod -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

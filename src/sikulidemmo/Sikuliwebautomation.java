@@ -10,6 +10,8 @@ public class Sikuliwebautomation {
 	
 	WebDriver driver;
 	Screen s = new Screen();
+
+	
 	
 	
 	
